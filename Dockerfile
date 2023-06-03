@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.10-alpine
 
 COPY ./ /work
 RUN apk update && pip install -r /work/requirements.txt --no-cache-dir
