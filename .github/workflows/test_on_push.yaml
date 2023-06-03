@@ -36,7 +36,8 @@ jobs:
 
       - name: Hello world action step
         id: hello
-        uses: ozada/test-action@v1
+        #uses: ozada/test-action@v1
+        uses: eafitch/test-action@v1
         with:
           who-to-greet: 'Joe Dow'
       - name: Get the output time
